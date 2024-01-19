@@ -39,6 +39,12 @@ body{
     margin-bottom: 2vh;
 }
 
+.img_onglets{
+    height: 2vh;
+    width: 2vh;
+    margin: 0.3vh;
+}
+
 .your_playlists{
     display: flex;
     flex-direction: column;
@@ -51,11 +57,17 @@ body{
 .plus{
     background-color: white;
     background-size: 24px;
+    height: 2vh;
+    width: 2vh;
+    margin: 0.3vh;
 }
 
 .like{
     background: linear-gradient(135deg, #450AF5 0%, #C4EFD9 100%);
     background-size: 24px;
+    height: 2vh;
+    width: 2vh;
+    margin: 0.3vh;
 }
 
 a{
@@ -88,6 +100,18 @@ a{
     justify-content: center;
     padding: 2vh;
 }
+
+.img_langues{
+    height: 2vh;
+    width: 2vh;
+    margin: 0.2vh;
+}
+
+.langues button{
+    align-items: center;
+
+}
+
 .lang{
     display: flex;
     flex-direction: row;
@@ -206,19 +230,16 @@ h4{
 }
 
 .sign_up{
-    margin: 1vh;
-    padding: 0.5vh;
+    margin: 0.3vh;
+    padding: 0.3vh;
     border-radius: 20%;
-    height: 5vh;
-    width: 5vh;
+    height: 6vh;
+    width: 8vh;
     background-color: white;
     border: solid white;
     color: black;
-    position: absolute;
-    bottom: 0;
-    left: 1300;
-    right: 0;
-    
+    align-items: center;
+
 }
 
 

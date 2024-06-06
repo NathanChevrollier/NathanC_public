@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculette de prêt immobilier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="titre">
+        <img src="img/Fichier 2-8 1.png" alt="Microlead" >
+    </div>
+    
+
+    <form class="calculette" action="submit" method="post">
+        
+        <h1>Calculatrice prêt immobilier</h1>
+
+        <div class="entry">
+            <div class="input_emprunt">
+                <label for="emprunt">Montant empruntée : </label>
+                <input id="emprunt" type="text" name="montant_emprunte" placeholder="100 000">
+            </div>
+            
+            <div class="input_taux">
+                <label for="taux">Taux nominal : </label>
+                <input id="taux" type="text" name="taux_nominal" placeholder="1.2">
+            </div>
+            
+            <div class="input_remboursement">
+                <label for="remboursement">Durée de remboursement : </label>
+                <input id="remboursement" type="text" name="duree_de_remboursement" placeholder="15">
+            </div>
+            
+        </div>
+        
+        
+        <button class="calculer" >Calculer</button>
+    </form>
+</body>
+</html>

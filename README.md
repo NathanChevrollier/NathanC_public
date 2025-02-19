@@ -1,4 +1,4 @@
-Vous trouverez certains des projets que j'ai réalisé cette année en première année de BTS SIO option SLAM.
-Les deux plus gros sont celui de la calculette immobilliere et la reproduction de maquette spotify.
-D'autres projets beaucoup plus gros sont en cours et je les ajouterais lorsqu'ils seront terminées
+Vous trouverez certains des projets et travaux que j'ai réalisé durant ces deux années de BTS SIO option SLAM.
+D'autres projets beaucoup plus conséquent que la plus part de ceux-ci sont en cours et je les ajouterais lorsqu'ils seront terminées.
+Le plus gros projet projet à l'heure actuelle est B-form.
 

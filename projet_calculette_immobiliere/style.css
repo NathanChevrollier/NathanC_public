@@ -7,6 +7,7 @@ body{
     padding-left: 220px;
     padding-right: 220px;
     padding-top: 80px;
+    font-family: Nunito Sans,sans-serif;
 }
 
 .titre{
@@ -23,38 +24,128 @@ body{
     justify-content: center;
     border: 1px solid #234B68;
     border-radius: 10px;
-    padding: 50px;
+    padding: 60px;
     padding-left: 80px;
     padding-right: 80px;
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 70%;
     margin: auto;
+    box-shadow: 0 4px 8px grey;
+    font-size: 20px;
+    color: #234B68;
+    font-weight: bold;
 
 }
 
 .calculette h1{
     padding-bottom: 10px;
+    color: #234B68;
 }
 
 .entry{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }
 
 .entry div{
     padding: 10px;
+    padding-left: 50px;
     display: flex;
-    justify-content: space-between;
 }
 
 
 .calculer{
     display: flex;
     border: 1px solid #234B68;
-    border-radius: 10%;
+    border-radius: 10px;
     color: white;
     background-color: #234B68;
     padding: 10px;
     margin-top: 40px;
+    box-shadow: 0 4px 8px grey;
+    height: 15%;
+    width: 15%;
+    justify-content: center;
+    font-size: 18px;
 }
+
+.calculette input{
+    box-shadow: 0 4px 8px grey;
+}
+
+.top_input{
+    display: flex;
+    width: 50%;
+}
+
+.end_input{
+    display: flex;
+    width: 50%;
+
+}
+
+.end_input_2{
+    display: flex;
+    width:50%;
+
+}
+
+.end_input span,.end_input_2 span{
+    background-color:#234B68;
+    border: 1px solid #234B68;
+    width: 15%;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px grey;
+    font-size: 16px;
+}
+
+.tableau{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #234B68;
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px grey;
+    font-size: 18px;
+    color: #234B68;
+}
+
+tbody{
+    text-align:center;
+}
+
+th{
+    width: 10%;
+    padding-bottom: 15px;
+}
+
+.download{
+    display: flex;
+    border: 1px solid #234B68;
+    border-radius: 10px;
+    color: white;
+    background-color: #234B68;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px grey;
+}
+
+.error{
+    flex-direction: column;
+    justify-content: center;
+    color: orange;
+}
+
+.error span{
+    font-size: 15px;
+}
+

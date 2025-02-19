@@ -1,0 +1,5 @@
+Ce "projet" réalisé en première année avait pour but de nous entrainer et de nous montrer les possibilités du javascript
+
+Attention une certaine partie du code était déjà fourni au préalable; seules les fonctions de modifications , d'affichage et de manipulation des trains ont été ajoutées 
+
+Le but étant de reproduire une sorte de plateau de jeu modifiable , puis en fonction du temps restant de "jouer" avec les trains

@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculette de prêt immobilier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -13,30 +17,88 @@
     </div>
     
 
-    <form class="calculette" action="submit" method="post">
+    <form class="calculette">
         
         <h1>Calculatrice prêt immobilier</h1>
 
         <div class="entry">
             <div class="input_emprunt">
-                <label for="emprunt">Montant empruntée : </label>
-                <input id="emprunt" type="text" name="montant_emprunte" placeholder="100 000">
+                <div class="top_input">
+                    <label for="emprunt">Montant empruntée : </label>
+                </div>
+
+                <div class="end_input">
+                    <input id="emprunt" type="text" name="montant_emprunte" placeholder="100 000">
+                    <span >€</span>
+                </div>
             </div>
             
             <div class="input_taux">
-                <label for="taux">Taux nominal : </label>
-                <input id="taux" type="text" name="taux_nominal" placeholder="1.2">
+                <div class="top_input">
+                    <label for="taux">Taux nominal : </label>
+                </div>
+
+                <div class="end_input">
+                    <input id="taux" type="text" name="taux_nominal" placeholder="1.2">
+                    <span>%</span>
+                </div>
             </div>
             
             <div class="input_remboursement">
-                <label for="remboursement">Durée de remboursement : </label>
-                <input id="remboursement" type="text" name="duree_de_remboursement" placeholder="15">
+                <div class="top_input">
+                    <label for="remboursement">Durée de remboursement : </label>
+                </div>
+                
+                <div class="end_input_2">
+                    <input id="remboursement" type="text" name="duree_de_remboursement" placeholder="15">
+                    <span>an(s)</span>
+                </div>
+            </div>
+
+            <div class="error">
+                <span class="error_c1" style="display: none">
+                    <p >Erreur de champ Montant empruntée : </p>
+                    <p class="list_error_c1"></p>
+                </span>
+                <span class="error_c2" style="display: none">
+                    <p >Erreur de champ taux nominal : </p>
+                    <p class="list_error_c2"></p>
+                </span>
+                <span class="error_c3" style="display: none">
+                    <p >Erreur de champ durée de remboursement : </p>
+                    <p class="list_error_c3"></p>
+                </span>
             </div>
             
         </div>
         
         
-        <button class="calculer" >Calculer</button>
+        <button class="calculer" type="submit">Calculer</button>
     </form>
+
+
+    <div class="tableau">
+        <h1>Tableau d'amortissement</h1>
+        <table >
+            <thead>
+                <tr>
+                    <th>Mois</th>
+                    <th>Solde initial</th>
+                    <th>Echéance</th>
+                    <th>Intérêts</th>
+                    <th>Amortissement</th>
+                    <th>Solde restant</th>
+                </tr>
+            </thead>
+
+            <tbody class="contenu_tab">
+            </tbody>
+        </table>
+        <div>
+            <button class="download" type="submit">Télécharger en PDF</button>
+        </div>
+    </div>
+   
+    <script src="index.js"></script>
 </body>
 </html>
